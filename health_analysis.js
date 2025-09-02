@@ -49,7 +49,7 @@
           report.innerHTML = `Number of patients: ${numPatients}<br><br>`;
           report.innerHTML += `Conditions Breakdown:<br>`;
           for (const condition in conditionsCount) {
-            report.innerHTML += `${condition}: ${conditionsCount[condition]}<br>`;
+            report.innerHTML += `${condition}: ${conditionsCount["condition"]}<br>`;
           }
 
           report.innerHTML += `<br>Gender-Based Conditions:<br>`;
